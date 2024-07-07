@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="nav bd_grid">
+      <div>
+        <a href="#" class="nav_logo"><i>portfolio</i></a>
+      </div>
+
+      <div class="nav_menu" id="nav_menu">
+        <ul class="nav_list">
+          <li class="nav_items">
+            <a href="#home" class="nav_link active">Home</a>
+          </li>
+          <li class="nav_items">
+            <a href="#about" class="nav_link active">About</a>
+          </li>
+          <li class="nav_items">
+            <a href="#skills" class="nav_link active">Skills</a>
+          </li>
+          <li class="nav_items">
+            <a href="#work" class="nav_link active">Projects</a>
+          </li>
+          <li class="nav_items">
+            <a href="#cv" class="nav_link active">Download cv</a>
+          </li>
+          <li class="nav_items">
+            <a href="#contact" class="nav_link active">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav_toggle" id="nav_toggle">
+        <i class="bx bx-menu-alt-right"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- HOME SECTION -->
+    <section class="home bd_grid" id="home">
+      <div class="home_data" data-aos="fade-down">
+        <h1 class="home_title">
+          Hello,<br />I'm <span class="home_title-color">xxx</span><br />
+          <span class="smaller-text">Student at ---</span>
+        </h1><br />
+        <a href="#contact" class="button"> Contact</a>
+      </div>
+
+      <div class="home_social">
+        <a href="#" class="home_social-icon" data-aos="fade-down"><i class='bx bxl-whatsapp'></i></a>
+        <a href="#" class="home_social-icon" data-aos="fade-down" data-aos-delay="250"><i
+            class='bx bxl-linkedin-square'></i></a>
+        <!-- <a href="#" class="home_social-icon" data-aos="fade-down" data-aos-delay="250"><i
+            class="bx bxl-instagram"></i></a> -->
+        <!-- <a href="#" class="home_social-icon" data-aos="fade-down" data-aos-delay="300"><i
+            class="cil-leetcode icon icon-xxl"></i></a> -->
+        <a href="#" class="home_social-icon" data-aos="fade-down" data-aos-delay="300"><i class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home_img" data-aos="fade-down" data-aos-delay="500">
+        <img src="F:\portfolio\portfolio\portfolio-master\assets\img\home2.png" alt="home img" data-aos="fade-down"
+          data-aos-delay="50">
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section" id="about">
+      <h2 class="section-title" data-aos="fade-down">About</h2>
+
+      <div class="about_container bd_grid">
+        <div class="about_img" data-aos="fade-down" data-aos-delay="50">
+          <img src="#" alt="Sneha's Photo" data-aos="fade-down" data-aos-delay="50">
+        </div>
+
+        <div>
+          <h2 class="about_subtitle" data-aos="fade-down" data-aos-delay="350">
+            I'm xxx
+          </h2>
+          <p class="about_text" data-aos="fade-down" data-aos-delay="450">
+            xxx
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills section" id="skills">
+      <h2 class="section-title" data-aos="fade-down">Skills</h2>
+
+      <div class="skills_container bd_grid">
+        <div>
+          <h2 class="skills_subtitle" data-aos="fade-down" data-aos-delay="250">
+            Professional Skills
+          </h2>
+          <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
+            I am passionate about learning, and my skill set encompasses:
+          </p>
+          <!-- SKILLS HTML -->
+          <div class="skills_data" data-aos="fade-right">
+            <div class="skills_name">
+              <i class="bx bxl-html5 skill_icon"></i>
+              <span class="skill_name">Html</span>
+            </div>
+
+            <div><span class="skill_percentage">85%</span></div>
+
+            <div class="skill_bar skill_html"></div>
+          </div>
+
+          <!-- SKILLS css -->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class="bx bxl-css3 skill_icon"></i>
+              <span class="skill_name">CSS</span>
+            </div>
+
+            <div><span class="skill_percentage">80%</span></div>
+
+            <div class="skill_bar skill_css"></div>
+          </div>
+
+          <!-- SKILLS SQL -->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class='bx bx-sushi skill_icon'></i>
+              <span class="skill_name">SQL</span>
+            </div>
+
+            <div><span class="skill_percentage">80%</span></div>
+
+            <div class="skill_bar skill_sql"></div>
+          </div>
+
+          <!-- SKILLS PYTHON -->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class='bx bxl-python skill_icon'></i>
+              <span class="skill_name">Python</span>
+            </div>
+
+            <div><span class="skill_percentage">70%</span></div>
+
+            <div class="skill_bar skill_python"></div>
+          </div>
+
+          <!-- SKILLS JAVA-->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class='bx bxl-java skill_icon'></i>
+              <span class="skill_name">Java</span>
+            </div>
+
+            <div><span class="skill_percentage">85%</span></div>
+
+            <div class="skill_bar skill_java"></div>
+          </div>
+          <!-- SKILLS PHP-->
+          <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_name">
+              <i class='bx bxl-php skill_icon'></i>
+              <span class="skill_name">PHP</span>
+            </div>
+
+            <div><span class="skill_percentage">70%</span></div>
+
+            <div class="skill_bar skill_php"></div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-delay="350">
+          <img src="F:\portfolio\portfolio\portfolio-master\assets\img\skills.png" alt="skills img" data-aos="fade-down"
+            data-aos-delay="50">
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="work section" id="work">
+      <h2 class="section-title" data-aos="fade-down">Projects</h2>
+
+      <div class="work_container bd_grid" data-aos="fade-down" data-aos-delay="250">
+        <div class="work_item">
+          <img src="./assets/img/6.jpg" alt="" />
+          <figcaption>Responsive portfolio</figcaption>
+        </div>
+
+        <div class="work_item">
+          <img src="./assets/img/2.png" alt="" />
+          <figcaption>Fabric defect detection using deep learning algorithms</figcaption>
+        </div>
+
+        <div class="work_item">
+          <img src="./assets/img/1.jpg" alt="" />
+          <figcaption>Online dairy products sales and purchase</figcaption>
+        </div>
+
+        <div class="work_item">
+          <img src="./assets/img/0.jpg" alt="" />
+          <figcaption>Online mobiles,electronics and furniture sales</figcaption>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV SECTION -->
+    <section class="cv section" id="cv">
+      <h2 class="section-title" data-aos="fade-down">My CV</h2>
+
+      <div class="cv_container bd_grid">
+        <!-- Display CV content -->
+        <div class="cv_content">
+          <img src="./assets/img/.jpg" alt="Resume image" width="100%" height="500" />
+        </div>
+
+        <!-- Download CV button -->
+        <a href="./assets/img/.pdf" download="Your_Name_CV.pdf" class="button cv_button">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+
+    <section class="contact section" id="contact">
+      <h2 class="section-title" data-aos="fade-down">Contact</h2>
+
+      <div class="contact_container bd_grid">
+        <div class="contact_details">
+          <p class="detail"><strong>Name :</strong> xxx</p>
+          <p class="detail"><strong>Email :</strong> .com</p>
+          <p class="detail"><strong>Phone :</strong> -----</p>
+          <p class="detail"><strong>Address:</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <p class="footer_title" data-aos="fade-down">copyrights reserved</p>
+
+      <div class="footer_socials">
+        <a href="#" class="footer_icon" data-aos="fade-down" data-aos-delay="350"><i class='bx bxl-whatsapp'></i></a>
+        <a href="#" class="footer_icon" data-aos="fade-down" data-aos-delay="450"><i class="bx bxl-github"></i></a>
+        <a href="#" class="footer_icon" data-aos="fade-down" data-aos-delay="550"><i
+            class='bx bxl-linkedin-square'></i></a>
+        <!-- <a href="#" class="footer_icon" data-aos="fade-down" data-aos-delay="250"><i
+            class="bx bxl-facebook-circle"></i></a>
+        <a href="#" class="footer_icon" data-aos="fade-down" data-aos-delay="350"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="footer_icon" data-aos="fade-down" data-aos-delay="450"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="footer_icon" data-aos="fade-down" data-aos-delay="550"><i class="bx bxl-github"></i></a> -->
+      </div>
+
+      <p data-aos="fade-down">
+        &#169;
+        <!-- 2024 copyright all right reserved -->
+      </p>
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./assets/js/main.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: false,
+    });
+  </script>
+</body>
+
+</html>
